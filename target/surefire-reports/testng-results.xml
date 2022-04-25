@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-15T23:00:33 EET" name="All Test Suite" finished-at="2022-04-15T23:07:45 EET" duration-ms="431486">
+    <groups>
+    </groups>
+    <test started-at="2022-04-15T23:00:33 EET" name="test" finished-at="2022-04-15T23:07:45 EET" duration-ms="431486">
+      <class name="tests.WishlistCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.WishlistCase@5af3afd9]" started-at="2022-04-15T23:07:29 EET" name="setup" finished-at="2022-04-15T23:07:38 EET" duration-ms="8595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wishlist()[pri:0, instance:tests.WishlistCase@5af3afd9]" started-at="2022-04-15T23:07:38 EET" name="wishlist" finished-at="2022-04-15T23:07:44 EET" duration-ms="6375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.WishlistCase@5af3afd9]" started-at="2022-04-15T23:07:44 EET" name="after" finished-at="2022-04-15T23:07:45 EET" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.WishlistCase -->
+      <class name="tests.ReviewCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ReviewCase@6aba2b86]" started-at="2022-04-15T23:03:11 EET" name="setup" finished-at="2022-04-15T23:03:32 EET" duration-ms="20744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="register()[pri:0, instance:tests.ReviewCase@6aba2b86]" started-at="2022-04-15T23:03:32 EET" name="register" finished-at="2022-04-15T23:03:35 EET" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="search()[pri:0, instance:tests.ReviewCase@6aba2b86]" started-at="2022-04-15T23:03:35 EET" name="search" finished-at="2022-04-15T23:03:49 EET" depends-on-methods="tests.ReviewCase.register" duration-ms="13254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.ReviewCase@6aba2b86]" started-at="2022-04-15T23:03:49 EET" name="after" finished-at="2022-04-15T23:03:51 EET" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.ReviewCase -->
+      <class name="tests.CompareCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CompareCase@47af7f3d]" started-at="2022-04-15T23:04:59 EET" name="setup" finished-at="2022-04-15T23:05:19 EET" duration-ms="19632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchformac()[pri:0, instance:tests.CompareCase@47af7f3d]" started-at="2022-04-15T23:05:19 EET" name="searchformac" finished-at="2022-04-15T23:05:30 EET" duration-ms="10964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchformac -->
+        <test-method signature="searchasus()[pri:0, instance:tests.CompareCase@47af7f3d]" started-at="2022-04-15T23:05:30 EET" name="searchasus" finished-at="2022-04-15T23:05:47 EET" depends-on-methods="tests.CompareCase.searchformac" duration-ms="17500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchasus -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.CompareCase@47af7f3d]" started-at="2022-04-15T23:05:47 EET" name="after" finished-at="2022-04-15T23:05:56 EET" duration-ms="8509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.CompareCase -->
+      <class name="tests.CurrencyCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CurrencyCase@7c729a55]" started-at="2022-04-15T23:05:56 EET" name="setup" finished-at="2022-04-15T23:06:40 EET" duration-ms="44531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="currency()[pri:0, instance:tests.CurrencyCase@7c729a55]" started-at="2022-04-15T23:06:40 EET" name="currency" finished-at="2022-04-15T23:06:45 EET" duration-ms="4354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currency -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.CurrencyCase@7c729a55]" started-at="2022-04-15T23:06:45 EET" name="after" finished-at="2022-04-15T23:06:49 EET" duration-ms="4628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.CurrencyCase -->
+      <class name="tests.HoverCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HoverCase@158da8e]" started-at="2022-04-15T23:03:51 EET" name="setup" finished-at="2022-04-15T23:04:16 EET" duration-ms="24192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hover()[pri:0, instance:tests.HoverCase@158da8e]" started-at="2022-04-15T23:04:16 EET" name="hover" finished-at="2022-04-15T23:04:17 EET" duration-ms="1852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hover -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.HoverCase@158da8e]" started-at="2022-04-15T23:04:17 EET" name="after" finished-at="2022-04-15T23:04:25 EET" duration-ms="7897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.HoverCase -->
+      <class name="tests.Search">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Search@3bb9a3ff]" started-at="2022-04-15T23:06:49 EET" name="setup" finished-at="2022-04-15T23:07:02 EET" duration-ms="12362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search()[pri:0, instance:tests.Search@3bb9a3ff]" started-at="2022-04-15T23:07:02 EET" name="search" finished-at="2022-04-15T23:07:05 EET" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.Search@3bb9a3ff]" started-at="2022-04-15T23:07:05 EET" name="after" finished-at="2022-04-15T23:07:09 EET" duration-ms="4858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.Search -->
+      <class name="tests.RegistrationCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:00:33 EET" name="setup" finished-at="2022-04-15T23:02:08 EET" duration-ms="94778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:15 EET" name="register" data-provider="Excel" finished-at="2022-04-15T23:02:25 EET" duration-ms="9933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[medo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adhm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[med@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mansoura]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:25 EET" name="register" data-provider="Excel" finished-at="2022-04-15T23:02:29 EET" duration-ms="4242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[walled]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saliman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[saliman@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[cairo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:29 EET" name="register" data-provider="Excel" finished-at="2022-04-15T23:02:32 EET" duration-ms="2684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mahmoud]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mahmoud@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manofya]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:32 EET" name="register" data-provider="Excel" finished-at="2022-04-15T23:02:35 EET" duration-ms="3436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mohb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mohb@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zagzig]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:35 EET" name="register" data-provider="Excel" finished-at="2022-04-15T23:02:39 EET" duration-ms="3298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahmoud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[khalil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[khalil@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:39 EET" name="register" data-provider="Excel" finished-at="2022-04-15T23:02:42 EET" duration-ms="3614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ahmed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shrief]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sherief@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[blkas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:44 EET" name="login" data-provider="Login" finished-at="2022-04-15T23:02:49 EET" duration-ms="4899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[med@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:49 EET" name="login" data-provider="Login" finished-at="2022-04-15T23:02:52 EET" duration-ms="3695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saliman@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:52 EET" name="login" data-provider="Login" finished-at="2022-04-15T23:02:55 EET" duration-ms="2853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahmoud@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:55 EET" name="login" data-provider="Login" finished-at="2022-04-15T23:02:59 EET" duration-ms="3677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mohb@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:02:59 EET" name="login" data-provider="Login" finished-at="2022-04-15T23:03:02 EET" duration-ms="3206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khalil@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:03:02 EET" name="login" data-provider="Login" finished-at="2022-04-15T23:03:05 EET" duration-ms="2918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sherief@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.RegistrationCase@1a451d4d]" started-at="2022-04-15T23:03:05 EET" name="after" finished-at="2022-04-15T23:03:11 EET" duration-ms="6309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.RegistrationCase -->
+      <class name="tests.ContactUsPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactUsPage@74e52303]" started-at="2022-04-15T23:04:25 EET" name="setup" finished-at="2022-04-15T23:04:41 EET" duration-ms="16016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="contact()[pri:0, instance:tests.ContactUsPage@74e52303]" started-at="2022-04-15T23:04:41 EET" name="contact" finished-at="2022-04-15T23:04:56 EET" duration-ms="14704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.ContactUsPage@74e52303]" started-at="2022-04-15T23:04:56 EET" name="after" finished-at="2022-04-15T23:04:59 EET" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.ContactUsPage -->
+      <class name="tests.SendEmailCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SendEmailCase@661972b0]" started-at="2022-04-15T23:07:09 EET" name="setup" finished-at="2022-04-15T23:07:20 EET" duration-ms="10800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="register()[pri:0, instance:tests.SendEmailCase@661972b0]" started-at="2022-04-15T23:07:20 EET" name="register" finished-at="2022-04-15T23:07:23 EET" duration-ms="3042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="search()[pri:0, instance:tests.SendEmailCase@661972b0]" started-at="2022-04-15T23:07:23 EET" name="search" finished-at="2022-04-15T23:07:28 EET" depends-on-methods="tests.SendEmailCase.register" duration-ms="4618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="enterinfo()[pri:0, instance:tests.SendEmailCase@661972b0]" started-at="2022-04-15T23:07:28 EET" name="enterinfo" finished-at="2022-04-15T23:07:29 EET" depends-on-methods="tests.SendEmailCase.search" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterinfo -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.SendEmailCase@661972b0]" started-at="2022-04-15T23:07:29 EET" name="after" finished-at="2022-04-15T23:07:29 EET" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.SendEmailCase -->
+    </test> <!-- test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="test">
+        <classes>
+
+            <class name="tests.RegistrationCase"></class>
+            <class name="tests.ReviewCase"></class>
+            <class name="tests.HoverCase"></class>
+            <class name="tests.ContactUsPage"></class>
+            <class name="tests.CompareCase"></class>
+            <class name="tests.CurrencyCase"></class>
+            <class name="tests.Search"></class>
+            <class name="tests.SendEmailCase"></class>
+            <class name="tests.WishlistCase"></class>
+
+
+        </classes>
+    </test>
+
+</suite>

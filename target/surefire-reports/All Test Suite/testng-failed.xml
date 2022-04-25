@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="test(failed)" verbose="0">
+    <classes>
+      <class name="tests.RegistrationCase">
+        <methods>
+          <include name="after"/>
+          <include name="setup"/>
+          <include name="register" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- tests.RegistrationCase -->
+      <class name="tests.ReviewCase">
+        <methods>
+          <include name="after"/>
+          <include name="setup"/>
+          <include name="search"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- tests.ReviewCase -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

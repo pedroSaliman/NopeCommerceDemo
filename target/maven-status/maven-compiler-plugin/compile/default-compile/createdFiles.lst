@@ -1,0 +1,12 @@
+Pages\Base.class
+Pages\MyAccountPage.class
+Pages\ContactUsPage.class
+Pages\MyProductPage.class
+Pages\ComparePage.class
+Pages\RegistartionPage.class
+Pages\LoginPage.class
+Pages\SendEmailPage.class
+Pages\HomePage.class
+Pages\ReviewPage.class
+Pages\SearchPage.class
+Pages\WishlistPage.class
